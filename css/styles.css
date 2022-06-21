@@ -1,0 +1,133 @@
+.header-css {
+    background-color: #ffffff;
+    text-decoration: none;
+
+}
+
+header, ul,li,a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+.header-button {
+    background-color: #ff7500;
+    width: 155px;
+    height: 39px;
+    color: #ffffff;
+}
+.python-book {
+    background-color: #252420;
+
+
+
+}
+.book-dict {
+    color: #ffffff;
+    width: 387px;
+    height: 328px;
+
+}
+.button-book{
+    background-color: #ff7500;
+    color: #ffffff;
+
+}
+.akademnashr-tarif{
+    width: 1440px;
+    height: 936px;
+}
+.savol {
+    height: 172px;
+    width: 435px;
+    font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 120%;
+
+}
+.cursor-pic{
+    width: 100px;
+    height: 100px;
+    background:rgba(255, 117, 0, 0.2);
+}
+.chaqmoq-pic{
+    width: 100px;
+    height: 100px;
+    background:rgba(255, 117, 0, 0.2);
+}
+.yulduz-pic{
+    width: 100px;
+    height: 100px;
+    background:rgba(255, 117, 0, 0.2);
+}
+.sale{
+
+    background-color: #252420;
+}
+
+
+.sarlavha-sale{
+color: #ffffff;
+}
+.sale-first-text {
+    color: #ffffff;
+}
+.sale-two-text {
+    color: #ffffff;
+}
+.strong-one {
+    color: #ff7500;
+}
+.strong-two{
+    color: #ff7500;
+}
+.sale-button{
+    background-color: #ff7500;
+    color: #ffffff;
+}
+.first-link-class{
+    width: 224px;
+    height: 159px;
+}
+.two-link-class{
+    width: 224px;
+    height: 229px;
+}
+.three-link-class{
+    width: 224px;
+    height: 89px;
+}
+.four-link-class{
+    width: 224px;
+    height: 89px;
+}
+.hero-line {
+    width: 80px;
+    height: 3px;
+    background: #FF7500;
+}
+.hero-header{
+    width: 339px;
+    height: 96px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+}
+.sc-paragraf{
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    width: 314px;
+    height: 72px;
+
+
+}
