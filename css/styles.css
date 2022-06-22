@@ -92,19 +92,23 @@ color: #ffffff;
 }
 .first-link-class{
     width: 224px;
-    height: 159px;
+    line-height: 25px;
+    color: #252420;
 }
 .two-link-class{
     width: 224px;
-    height: 229px;
+    line-height: 25px;
+    color: #252420;
 }
 .three-link-class{
     width: 224px;
-    height: 89px;
+    line-height: 19px;
+    color: #252420;
 }
 .four-link-class{
     width: 224px;
-    height: 89px;
+    line-height: 19px;
+    color: #252420;
 }
 .hero-line {
     width: 80px;
@@ -154,4 +158,9 @@ li {
 a{
     text-decoration: none;
     color: black;
+}
+.line-past{
+    height: 2px;
+    background-color: #25242080;
+
 }
