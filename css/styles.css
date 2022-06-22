@@ -7,12 +7,14 @@
 .header-link{
     text-decoration: none;
     color: black;
-    font-weight: 500;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 15px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+letter-spacing: 1px;
+
+    width: 92px;
+    height: 15px;
     font-family: "roboto", sans-serif;
+    height: 15px;
 
 }
 .header-button {
@@ -145,13 +147,13 @@ color: #ffffff;
     width: 314px;
     height: 72px;}
 .sc-paragraf-2{
-        font-family: roboto;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        width: 314px;
-        height: 72px;}
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    width: 314px;
+    height: 72px;}
 
 li {
     list-style-type: none;
@@ -159,10 +161,17 @@ li {
 a{
     text-decoration: none;
     color: black;
+    font-family: "roboto", sans-serif;
 }
 .line-past{
     height: 2px;
     width: 1100px;
     background-color: #25242080;
 
+}
+h2{
+    font-family: 'Roboto condesed', sans-serif;
+}
+p{
+    font-family: 'roboto', sans-serif;
 }
