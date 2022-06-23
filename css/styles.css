@@ -95,19 +95,24 @@
 .sale-first-text {
     color: #ffffff;
     width: 440px;
-height: 48px;
-
-font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-/* or 24px */
-
-letter-spacing: 0.5px;
+    height: 48px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
 }
 .sale-two-text {
     color: #ffffff;
+    width: 440px;
+    height: 48px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
 }
 .strong-one {
     color: #ff7500;
@@ -118,6 +123,14 @@ letter-spacing: 0.5px;
 .sale-button{
     background-color: #ff7500;
     color: #ffffff;
+    width: 104px;
+    height: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
 }
 .first-link-class{
     width: 224px;
