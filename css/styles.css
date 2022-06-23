@@ -15,13 +15,19 @@
     height: 15px;
     font-family: "roboto", sans-serif;
     height: 15px;
+    font-weight: 500;
 
 }
 .header-button {
     background-color: #ff7500;
-    width: 155px;
-    height: 39px;
+    width: 107px;
+height: 15px;
     color: #ffffff;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+
+    line-height: 15px;
+    letter-spacing: 0.5px;
 }
 .python-book {
     background-color: #252420;
