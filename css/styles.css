@@ -44,6 +44,8 @@
 .button-book{
     background-color: #ff7500;
     color: #ffffff;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
 
 }
 .akademnashr-tarif{
@@ -53,9 +55,9 @@
 .savol {
 
     width: 435px;
-    font-style: normal;
+    font-family: "roboto condesed", sans-serif;
+    font-weight: 700;
     font-size: 72px;
-    line-height: 120%;
 
 }
 .cursor-pic{
@@ -181,4 +183,14 @@ h2{
 p{
     font-family: 'roboto', sans-serif;
     font-size: 16px;
+}
+.book-dict-2{
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size:  16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    width: 387px;
+
+
 }
