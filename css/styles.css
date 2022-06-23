@@ -82,10 +82,29 @@
 
 
 .sarlavha-sale{
-color: #ffffff;
+    color: #ffffff;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    width: 373px;
+    height: 96px;
 }
 .sale-first-text {
     color: #ffffff;
+    width: 440px;
+height: 48px;
+
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+letter-spacing: 0.5px;
 }
 .sale-two-text {
     color: #ffffff;
@@ -135,7 +154,7 @@ color: #ffffff;
     line-height: 120%;
 }
 .sc-paragraf{
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -146,22 +165,24 @@ color: #ffffff;
 
 }
 .sc-paragraf-3{
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     width: 314px;
-    height: 72px;}
-.sc-paragraf-2{
-    font-family: roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    width: 314px;
-    height: 72px;}
+    height: 72px;
+}
 
+.sc-paragraf-2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    width: 314px;
+    height: 72px;
+}
 li {
     list-style-type: none;
 }
@@ -193,4 +214,25 @@ p{
     width: 387px;
 
 
+}
+.tarif-1{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+.tarif-2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+.tarif-3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
 }
