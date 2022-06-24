@@ -223,7 +223,6 @@ a{
 }
 .line-past{
     height: 2px;
-    width: 1100px;
     background-color: #25242080;
 
 }
@@ -264,4 +263,41 @@ p{
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
+}
+.header-css{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.justify-content-flex{
+ display: flex;
+ align-items: center;
+}
+.flexbox-2{
+    display: flex;
+}
+.python-book{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexbox-3{
+    display: flex;
+    justify-content: space-between;
+}
+.sale-flex{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.flex-4{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-5{
+    display: flex;
+}
+.flex-7{
+    display: flex;
+    justify-content: space-between;
 }
