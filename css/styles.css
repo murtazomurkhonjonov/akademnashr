@@ -1,13 +1,14 @@
 .header-css {
     background-color: #ffffff;
     text-decoration: none;
-
+    padding: 16px;
+    border-top:5px solid #ff7500;
 }
 
 .header-link{
     text-decoration: none;
     color: black;
-
+    padding: 0;
     line-height: 15px;
     letter-spacing: 1px;
 
@@ -21,18 +22,21 @@
 }
 .header-button {
     background-color: #ff7500;
-    width: 107px;
-    height: 15px;
+    border-radius: 4px;
+
     color: #ffffff;
     font-family: "roboto", sans-serif;
-    font-weight: 700;
+    font-weight: bold;
+    padding:12px 24px ;
 
-    line-height: 15px;
     letter-spacing: 0.5px;
     transition: opacity 0.4s ease;
+    display: inline-block;
 }
+
 .python-book {
     background-color: #252420;
+
 
 
 
@@ -42,17 +46,23 @@
     width: 387px;
     height: 328px;
 
+
 }
+
 .button-book{
     background-color: #ff7500;
     color: #ffffff;
     font-family: "roboto", sans-serif;
     font-weight: 700;
     transition: opacity 0.4s ease;
+    padding: 12px 24px;
+    border-radius: 4px;
+    width: 200px;
+    height: 39px;
 
 }
 .akademnashr-tarif{
-    width: 1440px;
+
 
 }
 .savol {
@@ -62,7 +72,11 @@
     font-weight: 700;
     font-size: 72px;
 
+
+
+
 }
+
 .cursor-pic{
     width: 100px;
     height: 100px;
@@ -81,9 +95,18 @@
 .sale{
 
     background-color: #252420;
+
+
 }
 
+.flexbox-3{
+    padding-top: 72px;
 
+    padding-bottom: 210px;
+}
+.sc-paragraf{
+   width: 310px;
+}
 .sarlavha-sale{
     color: #ffffff;
     font-family: 'Roboto Condensed';
@@ -136,6 +159,8 @@
     letter-spacing: 0.5px;
     transition: opacity 0.4s ease
                 background-color 0.4s ease;
+    padding: 12px 24px;
+    border-radius: 4px;
 }
 .first-link-class{
     width: 224px;
@@ -177,6 +202,7 @@
     width: 80px;
     height: 3px;
     background: #FF7500;
+    border: none;
 }
 .hero-header{
     width: 339px;
@@ -193,8 +219,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    width: 314px;
-    height: 72px;
+    width: 310px;
+
+
 
 
 }
@@ -204,7 +231,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    width: 314px;
+    width: 310px;
     height: 72px;
 }
 
@@ -214,7 +241,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    width: 314px;
+    width: 310px;
     height: 72px;
 }
 li {
@@ -289,6 +316,7 @@ p{
 .flexbox-3{
     display: flex;
     justify-content: space-between;
+    padding: 0px;
 }
 .sale-flex{
     display: flex;
@@ -312,10 +340,10 @@ align-items: center;
 .img-logo-class:hover{
 
 
-font-family: 'Roboto Condensed';
-font-style: normal;
-font-weight: 700;
-opacity: 0.8;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    opacity: 0.8;
 }
 .header-link:hover{
     color: #FF7500;
@@ -375,4 +403,59 @@ opacity: 0.8;
 .logos-svg{
     color: #252420;
     transition: color 0.4s ease
+}
+*:focus{
+    outline: 3px dotted #FF7500 ;
+    outline-offset: 3px;
+}
+.flex-4{
+    padding-top: 56px;
+    padding-bottom: 56pxpx;
+}
+
+.flex-7{
+
+ padding: 0px;
+
+}
+.manzillar{
+    background-color: #F8F8F8;
+    padding: 0;
+}
+
+.header-link{
+    width: 16px;
+
+}
+.logos-svg-pic{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 117, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pbook{
+    border-radius: 9px;
+}
+.sbook{
+    border-radius: 9px;
+}
+.hero-line-style{
+    border: none;
+    padding-top: 210px;
+}
+.hero-liness{
+    border: none;
+    background-color: #FF7500;
+    height: 3px;
+    width: 80px;
+}
+.sale{
+    border-radius: 12px;
+}
+.line-past{
+    border: none;
 }
