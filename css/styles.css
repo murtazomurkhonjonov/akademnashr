@@ -123,6 +123,8 @@ body{
     align-items: center;
 
 
+
+
 }
 
 .flexbox-3{
@@ -368,8 +370,9 @@ p{
 .sale-flex{
     display: flex;
     justify-content: space-between;
-align-items: center;
-
+    align-items: center;
+    margin-left: 64px;
+    margin-right: 64px;
 }
 .flex-4{
     margin: 0;
@@ -397,6 +400,7 @@ align-items: center;
 .flex-7{
     display: flex;
     transition: color 04s ease;
+    margin-bottom: 56px;
 
 }
 .img-logo-class{
@@ -528,6 +532,8 @@ align-items: center;
 }
 .sbook{
     border-radius: 9px;
+    margin-right: 64px;
+
 }
 .hero-line-style{
     border: none;
