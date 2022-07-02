@@ -451,6 +451,7 @@ align-items: center;
 .logos-svg{
     color: #252420;
     transition: color 0.4s ease;
+    display: block;
 
 }
 .logos-svga{
@@ -551,4 +552,7 @@ align-items: center;
     margin-right: 16px;
     display: block;
 
+}
+svg{
+    outline-color: #ff7500;
 }
