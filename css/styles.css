@@ -55,7 +55,7 @@ body{
     padding:12px 24px ;
 
     letter-spacing: 0.5px;
-    transition: opacity 0.4s ease;
+    transition: background-color 0.4s ease;
     display: inline-block;
 
 }
@@ -80,7 +80,7 @@ body{
     color: #ffffff;
     font-family: "roboto", sans-serif;
     font-weight: 700;
-    transition: opacity 0.4s ease;
+    transition: background-color 0.4s ease;
     padding: 12px 24px;
     border-radius: 4px;
     width: 200px;
@@ -121,10 +121,6 @@ body{
     background-color: #252420;
     justify-content: space-between;
     align-items: center;
-
-
-
-
 }
 
 .flexbox-3{
@@ -239,6 +235,7 @@ body{
     line-height: 32px;
     padding: 0;
     margin: 0;
+
 }
 .hero-line {
     width: 80px;
@@ -399,9 +396,7 @@ p{
 }
 .flex-7{
     display: flex;
-    transition: color 04s ease;
-    margin-bottom: 56px;
-
+    padding-bottom: 56px;
 }
 .img-logo-class{
     transition: opacity 0.6s ease;
@@ -422,8 +417,6 @@ p{
 }
 .header-button:hover{
     background-color: rgba(255, 117, 0, 0.8);
-
-
 }
 .button-book:hover{
     background-color: rgba(255, 117, 0, 0.8) ;
@@ -471,7 +464,7 @@ p{
     opacity: 0.6;
 }
 .button{
-    transition: opacity 0.4 ease;
+    transition: color 0.4 ease;
 }
 .logos-svg{
     color: #252420;
@@ -498,7 +491,7 @@ p{
 
 .flex-7{
 
- padding: 0px;
+
 
 }
 .manzillar{
