@@ -3,6 +3,7 @@
     text-decoration: none;
     padding: 16px;
     border-top:5px solid #ff7500;
+
 }
 
 .header-link{
@@ -18,9 +19,10 @@
     height: 15px;
     font-weight: 500;
     transition: color 0.6s ease;
-
+    margin-left: 32px;
 }
 .header-button {
+    margin-left: 32px;
     background-color: #ff7500;
     border-radius: 4px;
 
@@ -32,6 +34,12 @@
     letter-spacing: 0.5px;
     transition: opacity 0.4s ease;
     display: inline-block;
+
+}
+.flexbox-2:last-child{
+    display: flex;
+    margin: 0;
+
 }
 
 .python-book {
@@ -45,6 +53,7 @@
     color: #ffffff;
     width: 387px;
     height: 328px;
+
 
 
 }
@@ -66,15 +75,12 @@
 
 }
 .savol {
-
-    width: 435px;
+    width: 600px;
     font-family: "roboto condesed", sans-serif;
     font-weight: 700;
     font-size: 72px;
-
-
-
-
+    margin-top: 0;
+    margin-bottom: 72px;
 }
 
 .cursor-pic{
@@ -101,8 +107,8 @@
 
 .flexbox-3{
     padding-top: 72px;
-
     padding-bottom: 210px;
+    margin: 0;
 }
 .sc-paragraf{
    width: 310px;
@@ -149,16 +155,16 @@
 .sale-button{
     background-color: #ff7500;
     color: #ffffff;
-    width: 104px;
-    height: 15px;
+    width: 152px;
+    height: 39px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.5px;
-    transition: opacity 0.4s ease
-                background-color 0.4s ease;
+    transition: opacity 0.4s ease,
+    background-color 0.4s ease;
     padding: 12px 24px;
     border-radius: 4px;
 }
@@ -170,6 +176,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
+    padding: 0;
+    margin: 0;
+    margin-right: 68px;
+    transition: color 0.4s ease;
 }
 .two-link-class{
     width: 224px;
@@ -179,6 +189,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
+    padding: 0;
+    margin: 0;
+    margin-right: 68px;
+    transition: color 0.4s ease;
 }
 .three-link-class{
     width: 224px;
@@ -188,6 +202,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
+    padding: 0;
+    margin: 0;
+    margin-right: 68px;
+    transition: color 0.4s ease;
 }
 .four-link-class{
     width: 224px;
@@ -197,12 +215,16 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
+    padding: 0;
+    margin: 0;
 }
 .hero-line {
     width: 80px;
     height: 3px;
     background: #FF7500;
     border: none;
+    margin: 0;
+    margin-bottom: 40px;
 }
 .hero-header{
     width: 339px;
@@ -212,6 +234,8 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 120%;
+    margin-top: 0;
+    margin-bottom: 24px;
 }
 .sc-paragraf{
     font-family: 'Roboto', sans-serif;
@@ -220,6 +244,7 @@
     font-size: 16px;
     line-height: 150%;
     width: 310px;
+
 
 
 
@@ -256,6 +281,8 @@ a{
 .line-past{
     height: 2px;
     background-color: #25242080;
+    margin-top: 40px;
+    margin-bottom: 64px;
 
 }
 h2{
@@ -272,7 +299,8 @@ p{
     line-height: 150%;
     letter-spacing: 0.5px;
     width: 387px;
-
+    margin-top: 0;
+    margin-bottom: 32px;
 
 }
 .tarif-1{
@@ -305,9 +333,7 @@ p{
  display: flex;
  align-items: center;
 }
-.flexbox-2{
-    display: flex;
-}
+
 .python-book{
     display: flex;
     align-items: center;
@@ -315,27 +341,46 @@ p{
 }
 .flexbox-3{
     display: flex;
-    justify-content: space-between;
+
     padding: 0px;
 }
 .sale-flex{
     display: flex;
     justify-content: space-between;
 align-items: center;
+
 }
 .flex-4{
+    margin: 0;
     display: flex;
     justify-content: space-between;
+}
+.logo-ak{
+    display: block;
+}
+.logo-tg{
+    display: block;
+}
+.logo-fb{
+    display: block;
+}
+.logo-in{
+    display: block;
 }
 .flex-5{
     display: flex;
+    margin: 0;
+    align-items: center;
+
 }
 .flex-7{
     display: flex;
-    justify-content: space-between;
+    transition: color 04s ease;
+
 }
 .img-logo-class{
     transition: opacity 0.6s ease;
+
 }
 .img-logo-class:hover{
 
@@ -370,6 +415,9 @@ align-items: center;
 .flex-5:hover{
     color: #FF7500;
 }
+.links{
+    transition: color 0.4s ease;
+}
 .links:hover{
     color: #ff7500;
 }
@@ -402,7 +450,16 @@ align-items: center;
 }
 .logos-svg{
     color: #252420;
-    transition: color 0.4s ease
+    transition: color 0.4s ease;
+
+}
+.logos-svga{
+    color: #252420;
+    transition: color 0.4s ease;
+}
+.logos-svgb{
+    color: #252420;
+    transition: color 0.4s ease;
 }
 *:focus{
     outline: 3px dotted #FF7500 ;
@@ -440,6 +497,10 @@ align-items: center;
 .pbook{
     border-radius: 9px;
 }
+.logo-svg{
+    display: block;
+    transition: opacity 0.4s ease;
+}
 .sbook{
     border-radius: 9px;
 }
@@ -452,10 +513,42 @@ align-items: center;
     background-color: #FF7500;
     height: 3px;
     width: 80px;
+    margin-left: 0;
+    margin-bottom: 24px;
+    margin-top: 0;
 }
 .sale{
     border-radius: 12px;
 }
 .line-past{
     border: none;
+}
+.one-logo{
+    margin-right: 66px;
+    width: 314px;
+}
+.sarlavha-sale{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.sale-first-text{
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.sale-two-text{
+    margin-top:0;
+    margin-bottom: 0;
+}
+.promo-wrapper{
+    margin-bottom: 24px;
+    width: 440px;
+    height: 108px;
+
+}
+.logosss{
+    padding: 0;
+    margin-right: 16px;
+    display: block;
+
 }
